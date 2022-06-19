@@ -1,0 +1,4 @@
+shapes
+|> map(rotate(pi / 4))
+|> map(translate(6, 7))
+|> filter(fun shape -> area(shape) < 50)
