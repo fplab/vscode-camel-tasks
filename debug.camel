@@ -1,0 +1,3 @@
+let wx = observe(msg, transform_w(transform_x(shapes))) in
+let yz = transform_y(transform_z(shapes)) in
+[wx; yz]
