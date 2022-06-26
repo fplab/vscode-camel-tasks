@@ -3,6 +3,6 @@ let g = fun a, b -> a + b in
 if true then
   f(1)(2) + g(2, 3)
 else
-  [f(1)(2); g(2, 3)]
+  [0]
   |> map(fun x -> x * 3)
   |> sum
