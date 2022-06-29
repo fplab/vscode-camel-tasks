@@ -11,5 +11,5 @@ fun square, p1, p2 ->
       fun center ->
         let r = 4 in
         circle(center, 4)
-      in
+    in
     [mark(p1); line(p1, p2); mark(p2)]

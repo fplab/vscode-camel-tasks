@@ -1,3 +1,0 @@
-let ss1 = observe(msg, map_rotate(map_dilate(shapes))) in
-let ss2 = map_brighten(shapes) in
-[ss1; ss2]
